@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/totalCurrencyValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Currency Value: ₱0"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_bw="@id/totalCurrencyValueText"
+        android:layout_marginTop="20dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/totalCurrencyValueText"
+        android:padding="8dp"
+        android:background="@drawable/shadow">
+
+        <ListView
+            android:id="@+id/list_view_logs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:listSelector="@android:color/holo_blue_light"
+            android:background="@drawable/rounded_corners2"
+            /> <!-- Set the background with rounded corners here -->
+    </FrameLayout>
+
+    <View
+        android:id="@+id/voiceCommandButtonHalf"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/voiceCommandButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/voiceCommandButtonHalf"
+        android:background="@android:color/transparent"
+        android:onClick="startVoiceRecognition" />
+
+
+</RelativeLayout>

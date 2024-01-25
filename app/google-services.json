@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045065370802",
+    "project_id": "pesoriin",
+    "storage_bucket": "pesoriin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045065370802:android:85dd698cad15e726a4cdab",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.detection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEmEu1Cl3P7ok7Pttd4HBD969dRRcSZxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tfe_color_primary">#016BD4</color>
+    <color name="tfe_color_primary_dark">#000F7E</color>
+    <color name="tfe_color_accent">#001638</color>
+
+    <color name="tfe_semi_transparent">#66000000</color>
+
+    <color name="control_background">#4285F4</color>
+    <color name="selection_highlight">#aaaaaa</color>
+    <color name="selection_focus">#5569EE</color>
+    <color name="item_normal">#eeeeee</color>
+</resources>
